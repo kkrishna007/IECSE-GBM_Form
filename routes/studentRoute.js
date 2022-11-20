@@ -3,7 +3,7 @@ const router = express.Router();
 const Student = require("../models/studentModel");
 
 //
-router.route("/").post((req,res) => {
+router.route("/register").post((req,res) => {
     const fullName = req.body.fullName;
     const regNo = req.body.regNo;
     const mobileNum = req.body.mobileNum;
