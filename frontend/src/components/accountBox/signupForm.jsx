@@ -63,7 +63,7 @@ export function SignupForm(props) {
       email: input.email
     }
 
-    axios.post("http://localhost:3001/register", newStudent);
+    axios.post("http://localhost:3001/", newStudent);
   }
 
   return (
