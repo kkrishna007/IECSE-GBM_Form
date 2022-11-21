@@ -2,6 +2,8 @@
 
 html,
 body {
+  background-image:url('https://imgur.com/Vz9WluT');
+  background-size: "cover";
   width: 100%;
   height: 100%;
   overflow-x: hidden;

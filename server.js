@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());  //to parse the request coming from frontend
 
 //connect to mongoose
-mongoose.connect("mongodb+srv://jay_admin:hailiecse@cluster0.yslfbfg.mongodb.net/iecse");
+mongoose.connect("mongodb+srv://kkrishna007:iecseftw@cluster1.aumb3gl.mongodb.net/iecse");
 
 //require route
 app.use("/", require("./routes/studentRoute"));
